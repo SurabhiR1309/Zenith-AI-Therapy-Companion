@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #0b1220;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* MAIN APP */
+.app-container {
+    width: 420px;
+    height: 90vh;
+    background: #111827;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.5);
+}
+
+/* HEADER */
+.header {
+    background: #1f2937;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+.header h2 {
+    margin: 0;
+}
+
+.header p {
+    margin: 0;
+    font-size: 12px;
+    color: #9ca3af;
+}
+
+/* CHAT BOX */
+.chat-box {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* BOT MESSAGE */
+.bot-msg {
+    background: #1f2937;
+    color: #e5e7eb;
+    padding: 10px 12px;
+    border-radius: 12px;
+    max-width: 80%;
+    align-self: flex-start;
+}
+
+/* USER MESSAGE */
+.user-msg {
+    background: #2563eb;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 12px;
+    max-width: 80%;
+    align-self: flex-end;
+}
+
+/* TYPING INDICATOR */
+.typing {
+    font-style: italic;
+    font-size: 12px;
+    color: #9ca3af;
+}
+
+/* INPUT AREA */
+.input-area {
+    display: flex;
+    padding: 10px;
+    background: #1f2937;
+}
+
+.input-area input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background: #111827;
+    color: white;
+}
+
+.input-area button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+}

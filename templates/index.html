@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zenith - Mental Therapy AI</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="app-container">
+
+    <!-- HEADER -->
+    <div class="header">
+        <h2>🧠 Zenith</h2>
+        <p>Your AI Therapy Companion</p>
+    </div>
+
+    <!-- CHAT AREA -->
+    <div class="chat-box" id="chatBox">
+
+        <div class="bot-msg">
+            Hey, I’m Zenith 🤍  
+            I’m here with you. How are you feeling today?
+        </div>
+
+    </div>
+
+    <!-- INPUT AREA -->
+    <div class="input-area">
+        <input type="text" id="userInput" placeholder="Share what's on your mind...">
+        <button onclick="sendMessage()">Send</button>
+        <button onclick="getReport()">Report</button>
+    </div>
+
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
