@@ -78,8 +78,4 @@ This allows Zenith to mimic a supportive therapist-style interaction.
 
 
 
----
 
-
-
-## 📂 Project Structure
